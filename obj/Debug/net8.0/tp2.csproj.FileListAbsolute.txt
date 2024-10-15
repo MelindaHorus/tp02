@@ -1,0 +1,8 @@
+C:\Users\melin\source\repos\tp2\tp2\obj\Debug\net8.0\tp2.csproj.AssemblyReference.cache
+C:\Users\melin\source\repos\tp2\tp2\obj\Debug\net8.0\tp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\melin\source\repos\tp2\tp2\obj\Debug\net8.0\tp2.AssemblyInfoInputs.cache
+C:\Users\melin\source\repos\tp2\tp2\obj\Debug\net8.0\tp2.AssemblyInfo.cs
+C:\Users\melin\source\repos\tp2\tp2\obj\Debug\net8.0\tp2.csproj.CoreCompileInputs.cache
+C:\Users\melin\source\repos\tp2\tp2\obj\Debug\net8.0\tp2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\melin\source\repos\tp2\tp2\obj\Debug\net8.0\tp2.RazorAssemblyInfo.cache
+C:\Users\melin\source\repos\tp2\tp2\obj\Debug\net8.0\tp2.RazorAssemblyInfo.cs

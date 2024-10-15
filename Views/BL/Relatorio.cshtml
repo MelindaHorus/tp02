@@ -1,0 +1,36 @@
+﻿@page
+@model tp2.Views.BL.RelatorioModel
+@{
+
+    <h2>Relatório de BL e Containers</h2>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>BL Número</th>
+                <th>Data Emissão</th>
+                <th>Destino</th>
+                <th>Containers</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.NumeroBL</td>
+                    <td>@item.DataEmissao.ToShortDateString()</td>
+                    <td>@item.Destino</td>
+                    <td>
+                        <ul>
+                            @foreach (var container in item.Containers)
+                            {
+                                <li>@container.NumeroContainer</li>
+                            }
+                        </ul>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}

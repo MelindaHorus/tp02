@@ -1,0 +1,13 @@
+﻿@page
+@model tp2.Views.BL.CreateModel
+@{
+    <div class="form-group">
+        @Html.LabelFor(model => model.NumeroBL, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.NumeroBL, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.NumeroBL, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+}
